@@ -18,7 +18,7 @@ _ss_tmp_gz="/tmp/ss-tmp/shadowsocks-go.gz"
 _ss_dir='/usr/bin/shadowsocks-go'
 _ss_file='/usr/bin/shadowsocks-go/shadowsocks-go'
 _ss_sh="/usr/local/sbin/ss"
-_ss_sh_link="https://raw.githubusercontent.com/233boy/ss/master/ss.sh"
+_ss_sh_link="https://raw.githubusercontent.com/hexd2019/ss/master/ss.sh"
 backup='/usr/bin/shadowsocks-go/backup.conf'
 
 # 笨笨的检测方法
@@ -78,8 +78,8 @@ shadowsocks_password_config() {
 	echo
 	while :; do
 		# echo -e "请输入 "$yellow"Shadowsocks"$none" 密码"
-		read -p "$(echo -e "请输入$yellow Shadowsocks $none密码...(默认密码: ${cyan}233blog.com$none)"): " sspass
-		[ -z "$sspass" ] && sspass="233blog.com"
+		read -p "$(echo -e "请输入$yellow Shadowsocks $none密码...(默认密码: ${cyan}123blog.com$none)"): " sspass
+		[ -z "$sspass" ] && sspass="123blog.com"
 		case $sspass in
 		*[/$]*)
 			echo
@@ -354,7 +354,7 @@ uninstall() {
 			echo
 			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
 			echo
-			echo "反馈问题: https://github.com/233boy/ss/issues"
+			echo "反馈问题: https://github.com/hexd2019/ss/issues"
 			echo
 		fi
 
@@ -370,9 +370,9 @@ while :; do
 	echo
 	echo "........... Shadowsocks-Go 一键安装脚本 & 管理脚本 by $author .........."
 	echo
-	echo "帮助说明: https://233blog.com/post/36/"
+	echo "帮助说明: https://chedan"
 	echo
-	echo "搭建教程: https://233blog.com/post/3/"
+	echo "搭建教程: https://heihei"
 	echo
 	echo " 1. 安装"
 	echo
